@@ -1,0 +1,37 @@
+/*
+* Main Page
+*/
+.fill { 
+  min-height: 100%;
+  height: 100%;
+}
+.import-image-label-input {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  cursor: default;
+  opacity: 0;
+}
+.import-image-label-text {
+  text-decoration: underline;
+  color: rgb(112, 158, 232);
+  cursor: pointer;
+}
+.mouse-hover:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.content-overley {
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(0.4) brightness(88%) blur(4px);
+  background-position: center center;
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  bottom: -4px;
+  right: -4px;
+}
+.main-meme{
+  z-index: 999;
+}
